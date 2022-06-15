@@ -1,0 +1,248 @@
+/*Fondo Home*/
+
+#BannerInicio{
+    background: url(/img/fondobanner.jpg) no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 750px;
+    box-sizing: border-box;
+    
+  
+}
+
+/*Logo y links*/
+
+a.nav-link, .logo {
+    color:white ;
+    font-family: 'Raleway', sans-serif;  
+    
+}
+
+#logo1{
+    height:90px;
+    width:90px;
+}
+
+
+
+
+a.nav-link:hover{
+    color:rgb(255, 76, 76 );    
+   -webkit-transition: all 0.6s ease-in-out;
+   -o-transition: all 0.6s ease-in-out;
+   -ms-transition: all 0.6s ease-in-out;
+   -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+
+a.nav-link {
+display: inline-block;
+position: relative;
+
+text-decoration: none;
+}
+
+a.nav-link:after {
+content: "";
+display: block;
+margin: auto;
+height: 2px;
+width: 0px;
+transition: all .8s;
+}
+
+a.nav-link:hover:after {
+width: 100%;
+background: white;
+}
+
+
+
+.redes{
+
+    float: right;
+    margin-right: 15px;
+    font-size: 25px;
+    color:white ;
+    margin-top: 5px;
+}
+
+.redes:hover{
+    color: #F93434;
+}
+/*Fin NAVEGACION*/
+
+/*Nombre y presentación HOME*/
+.pres{
+
+    color: white;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    margin-top: 300px;
+
+}
+
+.Barra{
+    color: #F93434;
+}
+
+.pressub{
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:white;
+}
+
+/*Empieza Footer*/
+
+.footer {
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Slabo';
+  }
+
+  #TextoNombre{
+    margin-top: 150px;
+    color: white;
+  }
+
+  .linksfooter a{
+    color: white;
+    padding-left: 8px;
+
+  }
+  .linksfooter a:hover{
+    color:rgb(255, 76, 76 );  
+  }
+  .linksfooter{
+    margin-top: 40px;
+  }
+
+  .FooterNombre a{
+    color:lightcoral;
+  }
+
+  .FooterNombre a:hover{
+    color: rgb(255, 76, 76 );
+  }
+
+.navi{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.progreso{
+    padding-top: 100px;
+    padding-bottom: 130px;
+
+
+}
+
+.progress-title{
+    width:80%;
+    height: auto;
+    
+}
+
+.progress{
+
+    background:#171b3c;
+    border-radius:20px ;
+    border: 1px solid #000;
+    box-shadow: 2px 6px 2px #4f4c4c;
+    margin-bottom: 20px;
+    overflow: visible;
+
+}
+
+
+
+.progress .progress-value{
+    color: white;
+  
+    font-size: 22px;
+    line-height: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#tamañoprogres{
+    height: 25px;
+}
+
+.FondoSobreMi{
+
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.9)
+       ),  
+    url(/img/fondoimgsobremi.jpg);
+    background-size: cover;
+    border-top: 5px solid transparent;
+
+    
+
+}
+
+
+.labelbarra{
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.ContenBarras{
+    padding-top: 100px;
+ }
+
+ #DivProgresoCentral{
+    margin:0 0 0 15%;
+ }
+
+ .AcercaDeMi{
+    border: 0.1px solid lightslategray;
+    border-radius: 20px;
+    box-shadow:10px 50px 80px 20px rgba(41, 41,41,0.3);
+    padding: 80px 0px;
+    margin:65px 0px 80px 0px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 20px;
+    font-family:'Nixie One',cursive;
+ }
+
+.MiFoto{
+    height: 250px;
+    width: 200px;
+    margin:0px 0px 50px;
+    border: 1.5px solid lightgrey;
+}
+@font-face {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    src: url(/fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:'Cinzel Decorative';
+    src:url(/fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nixie One';
+    src: url(/fonts/NixieOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Slabo';
+    src: url(/fonts/Slabo13px-Regular.ttf);
+}
+
+.FooterNombre{
+    margin-top: 40px;
+}
